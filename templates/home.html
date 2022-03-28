@@ -1,0 +1,48 @@
+
+{% extends 'base.html'%}
+{%load static%}
+{%block title%} Home {%endblock title %}
+
+{%block content%}
+
+<div class="image-header">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="{% static 'img/Kayak.jpeg'%}" class="d-block w-60 h-50 top-50 image-header-item" alt="Kayak">
+          </div>
+          <div class="carousel-item">
+            <img src="{% static 'img/Pearl.jpeg'%}" class="d-block w-60 h-50 top-50 image-header-item" alt="Pearl">
+          </div>
+          <div class="carousel-item">
+            <img src="{% static 'img/Riverwalk.jpeg'%}" class="d-block w-60 h-50 top-50 image-header-item" alt="Riverwalk">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
+<div class="home-page">
+  <div class="home-page-header">
+    <h2><span>Welcome to the</span></h2>
+    <h2>Green-Key Travel Blog!</h2>
+  </div>
+  <div class="home-page-desc">
+      <h5>
+        I love traveling and if you're here.. I'm guessing you do too! Follow along as I take on as many trips as I can with a few cat cameos along the way!
+      </h5>
+  </div>
+</div>
+
+{%endblock content%}
