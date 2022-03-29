@@ -43,7 +43,7 @@ span{
 }
 .home-page-header{
     line-height: 30px;
-    background-color: #8b4f19;
+    background-color: #663a13;
     padding-bottom: 20px; 
     border-bottom: 1px solid rgba(255, 255, 255, 0.7);
 }
@@ -51,8 +51,8 @@ span{
     box-shadow: 5px 5px 15px 0px #00000075;
     height: 200px;  
     margin-top: 40px; 
-    border: 1px solid #606c38; 
-    background-color: #8b4e1986;
+    border: 1px solid #643913cc; 
+    background-color: #64391386;
     color: rgba(255, 255, 255, 0.9); 
     width: 80%; 
     margin-left: 10%;
@@ -92,13 +92,20 @@ span{
     box-shadow: 5px 5px 15px 0px #00000075;
     margin-left: 25%; 
     border: 1px solid #c48f6b8f; 
-    background-color: #555b6e;
+    background-color: #663a13;
     color: rgba(255, 255, 255, 0.9); 
 }
 .about-me{
     margin: 10px; 
     height: 100px; 
     margin-top: 10%; 
+}
+img{
+    max-height: 500px;
+    box-shadow: 5px 5px 15px 0px #00000075;
+    border: 1px solid #c48f6b8f; 
+    margin-right: 25%; 
+    margin-left: 10px; 
 }
 /* footer */
 footer{
